@@ -113,7 +113,7 @@ questions.each do |quiz|
 end
 puts "You got #{count} correct!"
 
-
+# query[:answer].downcase.split(" - ").include?(answer.downcase)
 
 
 
